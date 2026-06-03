@@ -1,0 +1,362 @@
+{
+  "schema_version": "crew44.agent.v1",
+  "name": "Product Management Skills",
+  "version": "1.0.0",
+  "description": "A marketplace of 65 product-management skills spanning discovery, strategy, execution, launch, and growth — assumption mapping, prioritization, PRDs and user stories, positioning and market sizing, metrics and north-star, A/B and cohort analysis, pricing and growth loops. Encodes proven PM frameworks (Torres, Cagan, Savoia) as guided step-by-step workflows for structured product decisions.",
+  "author": "phuryn",
+  "tags": [
+    "product-management",
+    "discovery",
+    "strategy",
+    "roadmap",
+    "prioritization"
+  ],
+  "suggested_runtime": "claude",
+  "source_type": "upstream-wrapper",
+  "upstream": {
+    "repo_url": "https://github.com/phuryn/pm-skills",
+    "commit": "f9eaa51000a65e04494aeaf90355d30f2080ebf2",
+    "path": "upstream",
+    "imported_at": "2026-06-03T03:30:23Z"
+  },
+  "skills": [
+    {
+      "name": "ab-test-analysis",
+      "path": "upstream/pm-data-analytics/skills/ab-test-analysis/SKILL.md"
+    },
+    {
+      "name": "cohort-analysis",
+      "path": "upstream/pm-data-analytics/skills/cohort-analysis/SKILL.md"
+    },
+    {
+      "name": "sql-queries",
+      "path": "upstream/pm-data-analytics/skills/sql-queries/SKILL.md"
+    },
+    {
+      "name": "brainstorm-okrs",
+      "path": "upstream/pm-execution/skills/brainstorm-okrs/SKILL.md"
+    },
+    {
+      "name": "create-prd",
+      "path": "upstream/pm-execution/skills/create-prd/SKILL.md"
+    },
+    {
+      "name": "dummy-dataset",
+      "path": "upstream/pm-execution/skills/dummy-dataset/SKILL.md"
+    },
+    {
+      "name": "job-stories",
+      "path": "upstream/pm-execution/skills/job-stories/SKILL.md"
+    },
+    {
+      "name": "outcome-roadmap",
+      "path": "upstream/pm-execution/skills/outcome-roadmap/SKILL.md"
+    },
+    {
+      "name": "pre-mortem",
+      "path": "upstream/pm-execution/skills/pre-mortem/SKILL.md"
+    },
+    {
+      "name": "prioritization-frameworks",
+      "path": "upstream/pm-execution/skills/prioritization-frameworks/SKILL.md"
+    },
+    {
+      "name": "release-notes",
+      "path": "upstream/pm-execution/skills/release-notes/SKILL.md"
+    },
+    {
+      "name": "retro",
+      "path": "upstream/pm-execution/skills/retro/SKILL.md"
+    },
+    {
+      "name": "sprint-plan",
+      "path": "upstream/pm-execution/skills/sprint-plan/SKILL.md"
+    },
+    {
+      "name": "stakeholder-map",
+      "path": "upstream/pm-execution/skills/stakeholder-map/SKILL.md"
+    },
+    {
+      "name": "summarize-meeting",
+      "path": "upstream/pm-execution/skills/summarize-meeting/SKILL.md"
+    },
+    {
+      "name": "test-scenarios",
+      "path": "upstream/pm-execution/skills/test-scenarios/SKILL.md"
+    },
+    {
+      "name": "user-stories",
+      "path": "upstream/pm-execution/skills/user-stories/SKILL.md"
+    },
+    {
+      "name": "wwas",
+      "path": "upstream/pm-execution/skills/wwas/SKILL.md"
+    },
+    {
+      "name": "beachhead-segment",
+      "path": "upstream/pm-go-to-market/skills/beachhead-segment/SKILL.md"
+    },
+    {
+      "name": "competitive-battlecard",
+      "path": "upstream/pm-go-to-market/skills/competitive-battlecard/SKILL.md"
+    },
+    {
+      "name": "growth-loops",
+      "path": "upstream/pm-go-to-market/skills/growth-loops/SKILL.md"
+    },
+    {
+      "name": "gtm-motions",
+      "path": "upstream/pm-go-to-market/skills/gtm-motions/SKILL.md"
+    },
+    {
+      "name": "gtm-strategy",
+      "path": "upstream/pm-go-to-market/skills/gtm-strategy/SKILL.md"
+    },
+    {
+      "name": "ideal-customer-profile",
+      "path": "upstream/pm-go-to-market/skills/ideal-customer-profile/SKILL.md"
+    },
+    {
+      "name": "competitor-analysis",
+      "path": "upstream/pm-market-research/skills/competitor-analysis/SKILL.md"
+    },
+    {
+      "name": "customer-journey-map",
+      "path": "upstream/pm-market-research/skills/customer-journey-map/SKILL.md"
+    },
+    {
+      "name": "market-segments",
+      "path": "upstream/pm-market-research/skills/market-segments/SKILL.md"
+    },
+    {
+      "name": "market-sizing",
+      "path": "upstream/pm-market-research/skills/market-sizing/SKILL.md"
+    },
+    {
+      "name": "sentiment-analysis",
+      "path": "upstream/pm-market-research/skills/sentiment-analysis/SKILL.md"
+    },
+    {
+      "name": "user-personas",
+      "path": "upstream/pm-market-research/skills/user-personas/SKILL.md"
+    },
+    {
+      "name": "user-segmentation",
+      "path": "upstream/pm-market-research/skills/user-segmentation/SKILL.md"
+    },
+    {
+      "name": "marketing-ideas",
+      "path": "upstream/pm-marketing-growth/skills/marketing-ideas/SKILL.md"
+    },
+    {
+      "name": "north-star-metric",
+      "path": "upstream/pm-marketing-growth/skills/north-star-metric/SKILL.md"
+    },
+    {
+      "name": "positioning-ideas",
+      "path": "upstream/pm-marketing-growth/skills/positioning-ideas/SKILL.md"
+    },
+    {
+      "name": "product-name",
+      "path": "upstream/pm-marketing-growth/skills/product-name/SKILL.md"
+    },
+    {
+      "name": "value-prop-statements",
+      "path": "upstream/pm-marketing-growth/skills/value-prop-statements/SKILL.md"
+    },
+    {
+      "name": "analyze-feature-requests",
+      "path": "upstream/pm-product-discovery/skills/analyze-feature-requests/SKILL.md"
+    },
+    {
+      "name": "brainstorm-experiments-existing",
+      "path": "upstream/pm-product-discovery/skills/brainstorm-experiments-existing/SKILL.md"
+    },
+    {
+      "name": "brainstorm-experiments-new",
+      "path": "upstream/pm-product-discovery/skills/brainstorm-experiments-new/SKILL.md"
+    },
+    {
+      "name": "brainstorm-ideas-existing",
+      "path": "upstream/pm-product-discovery/skills/brainstorm-ideas-existing/SKILL.md"
+    },
+    {
+      "name": "brainstorm-ideas-new",
+      "path": "upstream/pm-product-discovery/skills/brainstorm-ideas-new/SKILL.md"
+    },
+    {
+      "name": "identify-assumptions-existing",
+      "path": "upstream/pm-product-discovery/skills/identify-assumptions-existing/SKILL.md"
+    },
+    {
+      "name": "identify-assumptions-new",
+      "path": "upstream/pm-product-discovery/skills/identify-assumptions-new/SKILL.md"
+    },
+    {
+      "name": "interview-script",
+      "path": "upstream/pm-product-discovery/skills/interview-script/SKILL.md"
+    },
+    {
+      "name": "metrics-dashboard",
+      "path": "upstream/pm-product-discovery/skills/metrics-dashboard/SKILL.md"
+    },
+    {
+      "name": "opportunity-solution-tree",
+      "path": "upstream/pm-product-discovery/skills/opportunity-solution-tree/SKILL.md"
+    },
+    {
+      "name": "prioritize-assumptions",
+      "path": "upstream/pm-product-discovery/skills/prioritize-assumptions/SKILL.md"
+    },
+    {
+      "name": "prioritize-features",
+      "path": "upstream/pm-product-discovery/skills/prioritize-features/SKILL.md"
+    },
+    {
+      "name": "summarize-interview",
+      "path": "upstream/pm-product-discovery/skills/summarize-interview/SKILL.md"
+    },
+    {
+      "name": "ansoff-matrix",
+      "path": "upstream/pm-product-strategy/skills/ansoff-matrix/SKILL.md"
+    },
+    {
+      "name": "business-model",
+      "path": "upstream/pm-product-strategy/skills/business-model/SKILL.md"
+    },
+    {
+      "name": "lean-canvas",
+      "path": "upstream/pm-product-strategy/skills/lean-canvas/SKILL.md"
+    },
+    {
+      "name": "monetization-strategy",
+      "path": "upstream/pm-product-strategy/skills/monetization-strategy/SKILL.md"
+    },
+    {
+      "name": "pestle-analysis",
+      "path": "upstream/pm-product-strategy/skills/pestle-analysis/SKILL.md"
+    },
+    {
+      "name": "porters-five-forces",
+      "path": "upstream/pm-product-strategy/skills/porters-five-forces/SKILL.md"
+    },
+    {
+      "name": "pricing-strategy",
+      "path": "upstream/pm-product-strategy/skills/pricing-strategy/SKILL.md"
+    },
+    {
+      "name": "product-strategy",
+      "path": "upstream/pm-product-strategy/skills/product-strategy/SKILL.md"
+    },
+    {
+      "name": "product-vision",
+      "path": "upstream/pm-product-strategy/skills/product-vision/SKILL.md"
+    },
+    {
+      "name": "startup-canvas",
+      "path": "upstream/pm-product-strategy/skills/startup-canvas/SKILL.md"
+    },
+    {
+      "name": "swot-analysis",
+      "path": "upstream/pm-product-strategy/skills/swot-analysis/SKILL.md"
+    },
+    {
+      "name": "value-proposition",
+      "path": "upstream/pm-product-strategy/skills/value-proposition/SKILL.md"
+    },
+    {
+      "name": "draft-nda",
+      "path": "upstream/pm-toolkit/skills/draft-nda/SKILL.md"
+    },
+    {
+      "name": "grammar-check",
+      "path": "upstream/pm-toolkit/skills/grammar-check/SKILL.md"
+    },
+    {
+      "name": "privacy-policy",
+      "path": "upstream/pm-toolkit/skills/privacy-policy/SKILL.md"
+    },
+    {
+      "name": "review-resume",
+      "path": "upstream/pm-toolkit/skills/review-resume/SKILL.md"
+    }
+  ],
+  "payload": {
+    "include": [
+      "INSTRUCTIONS.md",
+      "crew44-agent.json",
+      "upstream/pm-data-analytics/skills/ab-test-analysis/SKILL.md",
+      "upstream/pm-data-analytics/skills/cohort-analysis/SKILL.md",
+      "upstream/pm-data-analytics/skills/sql-queries/SKILL.md",
+      "upstream/pm-execution/skills/brainstorm-okrs/SKILL.md",
+      "upstream/pm-execution/skills/create-prd/SKILL.md",
+      "upstream/pm-execution/skills/dummy-dataset/SKILL.md",
+      "upstream/pm-execution/skills/job-stories/SKILL.md",
+      "upstream/pm-execution/skills/outcome-roadmap/SKILL.md",
+      "upstream/pm-execution/skills/pre-mortem/SKILL.md",
+      "upstream/pm-execution/skills/prioritization-frameworks/SKILL.md",
+      "upstream/pm-execution/skills/release-notes/SKILL.md",
+      "upstream/pm-execution/skills/retro/SKILL.md",
+      "upstream/pm-execution/skills/sprint-plan/SKILL.md",
+      "upstream/pm-execution/skills/stakeholder-map/SKILL.md",
+      "upstream/pm-execution/skills/summarize-meeting/SKILL.md",
+      "upstream/pm-execution/skills/test-scenarios/SKILL.md",
+      "upstream/pm-execution/skills/user-stories/SKILL.md",
+      "upstream/pm-execution/skills/wwas/SKILL.md",
+      "upstream/pm-go-to-market/skills/beachhead-segment/SKILL.md",
+      "upstream/pm-go-to-market/skills/competitive-battlecard/SKILL.md",
+      "upstream/pm-go-to-market/skills/growth-loops/SKILL.md",
+      "upstream/pm-go-to-market/skills/gtm-motions/SKILL.md",
+      "upstream/pm-go-to-market/skills/gtm-strategy/SKILL.md",
+      "upstream/pm-go-to-market/skills/ideal-customer-profile/SKILL.md",
+      "upstream/pm-market-research/skills/competitor-analysis/SKILL.md",
+      "upstream/pm-market-research/skills/customer-journey-map/SKILL.md",
+      "upstream/pm-market-research/skills/market-segments/SKILL.md",
+      "upstream/pm-market-research/skills/market-sizing/SKILL.md",
+      "upstream/pm-market-research/skills/sentiment-analysis/SKILL.md",
+      "upstream/pm-market-research/skills/user-personas/SKILL.md",
+      "upstream/pm-market-research/skills/user-segmentation/SKILL.md",
+      "upstream/pm-marketing-growth/skills/marketing-ideas/SKILL.md",
+      "upstream/pm-marketing-growth/skills/north-star-metric/SKILL.md",
+      "upstream/pm-marketing-growth/skills/positioning-ideas/SKILL.md",
+      "upstream/pm-marketing-growth/skills/product-name/SKILL.md",
+      "upstream/pm-marketing-growth/skills/value-prop-statements/SKILL.md",
+      "upstream/pm-product-discovery/skills/analyze-feature-requests/SKILL.md",
+      "upstream/pm-product-discovery/skills/brainstorm-experiments-existing/SKILL.md",
+      "upstream/pm-product-discovery/skills/brainstorm-experiments-new/SKILL.md",
+      "upstream/pm-product-discovery/skills/brainstorm-ideas-existing/SKILL.md",
+      "upstream/pm-product-discovery/skills/brainstorm-ideas-new/SKILL.md",
+      "upstream/pm-product-discovery/skills/identify-assumptions-existing/SKILL.md",
+      "upstream/pm-product-discovery/skills/identify-assumptions-new/SKILL.md",
+      "upstream/pm-product-discovery/skills/interview-script/SKILL.md",
+      "upstream/pm-product-discovery/skills/metrics-dashboard/SKILL.md",
+      "upstream/pm-product-discovery/skills/opportunity-solution-tree/SKILL.md",
+      "upstream/pm-product-discovery/skills/prioritize-assumptions/SKILL.md",
+      "upstream/pm-product-discovery/skills/prioritize-features/SKILL.md",
+      "upstream/pm-product-discovery/skills/summarize-interview/SKILL.md",
+      "upstream/pm-product-strategy/skills/ansoff-matrix/SKILL.md",
+      "upstream/pm-product-strategy/skills/business-model/SKILL.md",
+      "upstream/pm-product-strategy/skills/lean-canvas/SKILL.md",
+      "upstream/pm-product-strategy/skills/monetization-strategy/SKILL.md",
+      "upstream/pm-product-strategy/skills/pestle-analysis/SKILL.md",
+      "upstream/pm-product-strategy/skills/porters-five-forces/SKILL.md",
+      "upstream/pm-product-strategy/skills/pricing-strategy/SKILL.md",
+      "upstream/pm-product-strategy/skills/product-strategy/SKILL.md",
+      "upstream/pm-product-strategy/skills/product-vision/SKILL.md",
+      "upstream/pm-product-strategy/skills/startup-canvas/SKILL.md",
+      "upstream/pm-product-strategy/skills/swot-analysis/SKILL.md",
+      "upstream/pm-product-strategy/skills/value-proposition/SKILL.md",
+      "upstream/pm-toolkit/skills/draft-nda/SKILL.md",
+      "upstream/pm-toolkit/skills/grammar-check/SKILL.md",
+      "upstream/pm-toolkit/skills/privacy-policy/SKILL.md",
+      "upstream/pm-toolkit/skills/review-resume/SKILL.md",
+      "upstream/**"
+    ],
+    "exclude": [
+      ".git/**",
+      "**/.git/**",
+      "**/node_modules/**",
+      "**/.DS_Store"
+    ]
+  }
+}
