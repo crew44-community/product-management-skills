@@ -1,7 +1,7 @@
 {
   "schema_version": "crew44.agent.v1",
   "name": "Product Management Skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A marketplace of 65 product-management skills spanning discovery, strategy, execution, launch, and growth — assumption mapping, prioritization, PRDs and user stories, positioning and market sizing, metrics and north-star, A/B and cohort analysis, pricing and growth loops. Encodes proven PM frameworks (Torres, Cagan, Savoia) as guided step-by-step workflows for structured product decisions.",
   "author": "phuryn",
   "tags": [
@@ -15,9 +15,9 @@
   "source_type": "upstream-wrapper",
   "upstream": {
     "repo_url": "https://github.com/phuryn/pm-skills",
-    "commit": "f9eaa51000a65e04494aeaf90355d30f2080ebf2",
+    "commit": "2b4e4dc1510eb4be06d10bb3196f4705aa30a929",
     "path": "upstream",
-    "imported_at": "2026-06-03T03:30:23Z"
+    "imported_at": "2026-06-04T13:54:39Z"
   },
   "skills": [
     {
